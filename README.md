@@ -29,5 +29,5 @@
   - 추천 기준을 정의하여 사용자의 투자 성향에 맞는 ETF를 추천할 수 있도록 구현함
 
 - [vin github](https://github.com/HongJunseong/VIN)
-- [vin notion](https://www.notion.so/00a485db6469497682d39715a07f7a19?v=ef02ec1ea67c43bdac9157c273b4203b)
+- [vin notion]([https://www.notion.so/00a485db6469497682d39715a07f7a19?v=ef02ec1ea67c43bdac9157c273b4203b](https://vigorous-helenium-94e.notion.site/00a485db6469497682d39715a07f7a19?v=ef02ec1ea67c43bdac9157c273b4203b)
 - [서비스 시연 영상 유튜브](https://www.youtube.com/watch?v=FWQwvUAIn-Y)
