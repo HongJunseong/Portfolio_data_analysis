@@ -1,16 +1,46 @@
-contents_DB : MongoDB 관리 코드
+<h2> 🔍 프로젝트 개요 </h2>
 
-crawling_instagram : selenium을 통한 sns 게시글 크롤링 코드
+- SNS에서 크롤링한 게시글 데이터를 분석하여 광고성 게시물을 제거하고, 신뢰할 수 있는 식당 정보를 제공한다. 필터링된 데이터를 지도에 시각적으로 표기하여 사용자에게 직관적인 정보를 제공합니다.
 
-map_api : 추출된 데이터와 kakaomap api를 통해 지도 생성 및 마크 표시
+<h2> 🚀  주요 기능 </h2>
 
-전처리 과정을 통해 얻은 3 개의 변수를 기반으로 광고 분류 모델을 구축하기 위해 머신러닝 및 딥러닝을 활용하였다.
-XGBoost(Ver. 2.1.3), LightGBM(Ver. 4.5.0), TabNet(Ver. 4.1.0)의 총 3가지 Classifier을 사용하였다.
-<br/>
-XGBoost와 LightGBM은 scikit-learn에서 제공하는 GridSearchCV를 사용하여 최적 파라미터를 구했고,
-TabNet은 optuna 라이브러리를 활용하여 최적 파라미터를 구하였다.
-각 예측 모델의 최적 하이퍼 파라미터 탐색 및 교차 검증을 수행한 결과는 아래의 표과 같다.
-<br/>
+- SNS 게시글 크롤링 : 특정 키워드 및 해시태그를 기반으로 게시글 데이터(좋아요 수, 댓글, 내용 등) 데이터 수집
+- 식당 정보 추출 : LLM을 활용하여 게시글의 내용 속에서 식당명 및 식당 주소 등 필수 정보를 추출
+- 광고성 게시글 필터링 : 특정 패턴(ex. 광고 키워드, 좋아요 수, 댓글 수 등)을 분석하여 광고성 게시글 제거
+- 지도 시각화 : 필터링된 식당 정보를 지도에 표기하여 제공
 
-![image](https://github.com/user-attachments/assets/615ef315-3f30-4ff7-8e9e-150c9b6a1c5d)
 
+
+<h2> 🛠 기술 스택 </h2>
+
+- 크롤링 : Selenium, Requests
+- 광고 분류 모델 : XGBoost, LightGBM, TabNet, Optuna, GridSearchCV
+- 식당 필수 정보 추출 : Langchain
+- 지도 시각화 : Folium, Kakao Map API
+- 데이터베이스 : MongoDB
+
+
+<h2> 🔥 기대 효과 </h2>
+
+- SNS 데이터를 활용한 신뢰도 높은 맛집 추천 제공
+- 광고 게시물을 효과적으로 필터링하여 비교적 정확한 정보만 제공
+
+<h2> 📌 향후 개선 방향 </h2>
+
+- 실시간 업데이트 기능 추가
+- 광고성 게시글 필터링 정확도 향상
+- 게시글 내용 및 댓글의 감정 분석을 통하여 각 식당에 점수를 매겨, 더 신뢰성이 있는 정보 제공
+
+
+<h2> 📂 폴더 구조 </h2>
+
+📦 SNSA<br>
+├── contents_DB.py            # MongoDB 관리 모듈<br>
+├── crawling_instagram.ipynb  # 크롤링 코드<br>
+├── crawling_utils.py         # 크롤링 관련 함수<br>
+├── find_ad.ipynb             # 광고 분류 모델 코드<br>
+├── train_eval.py             # 광고 분류 모델 훈련 및 평가 함수<br>
+├── map_api.ipynb             # 지도 시각화 코드<br>
+├── map_utils.py              # 지도 시각화 함수<br>
+├── preprocess.ipynb          # 전처리 코드<br>
+└── README.md                 # 프로젝트 요약<br>
