@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/1351bef9-d347-4607-9ffb-57dc75f5ecef)contents_DB -> MongoDB 관리 코드
+contents_DB -> MongoDB 관리 코드
 
 crawling_instagram -> selenium을 통한 sns 게시글 크롤링 코드
 
