@@ -1,4 +1,4 @@
-contents_DB -> MongoDB 관리 코드
+![image](https://github.com/user-attachments/assets/1351bef9-d347-4607-9ffb-57dc75f5ecef)contents_DB -> MongoDB 관리 코드
 
 crawling_instagram -> selenium을 통한 sns 게시글 크롤링 코드
 
@@ -12,4 +12,5 @@ TabNet은 optuna 라이브러리를 활용하여 최적 파라미터를 구하�
 각 예측 모델의 최적 하이퍼 파라미터 탐색 및 교차 검증을 수행한 결과는 아래의 표과 같다.
 <br/>
 
-![image](https://github.com/user-attachments/assets/58628933-90c9-4291-9a5d-3978afb38897)
+![image](https://github.com/user-attachments/assets/615ef315-3f30-4ff7-8e9e-150c9b6a1c5d)
+
