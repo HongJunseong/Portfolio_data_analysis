@@ -16,7 +16,7 @@
   - 각 요일·장소·학교급·계절·지역 등 다양한 요소에 따라 발생하는 학교 안전사고 패턴에 대해 분석함
   - 연관 분석을 활용하여 빈번히 나타나는 사고 패턴을 파악하고, 이를 방지하기 위한 전략 및 기대 효과를 제시함
 
-- [project ppt](https://file.notion.so/f/f/23911455-1e9a-42de-b270-345e7e52345a/ae01dbfd-3d94-40d1-a299-e496dc89ed41/%ED%95%99%EA%B5%90_%EC%95%88%EC%A0%84%EC%82%AC%EA%B3%A0_%EB%B6%84%EC%84%9D_%EB%B0%8F_%EC%98%88%EB%B0%A9_%EC%A0%84%EB%9E%B5_%EC%88%98%EB%A6%BD.pdf?table=block&id=432706c0-52f6-4eb4-b82e-cbd99d497a31&spaceId=23911455-1e9a-42de-b270-345e7e52345a&expirationTimestamp=1741744800000&signature=e3X9yMPcrwQ9olxEe6LtsqIvxzSuyMm6u-P-yLBfUz4&downloadName=%ED%95%99%EA%B5%90+%EC%95%88%EC%A0%84%EC%82%AC%EA%B3%A0+%EB%B6%84%EC%84%9D+%EB%B0%8F+%EC%98%88%EB%B0%A9+%EC%A0%84%EB%9E%B5+%EC%88%98%EB%A6%BD.pdf)
+- [project ppt](https://github.com/HongJunseong/Portfolio_data_analysis/blob/main/02-schoo_safe_analysis/%ED%95%99%EA%B5%90%20%EC%95%88%EC%A0%84%EC%82%AC%EA%B3%A0%20%EB%B6%84%EC%84%9D%20%EB%B0%8F%20%EC%98%88%EB%B0%A9%20%EC%A0%84%EB%9E%B5%20%EC%88%98%EB%A6%BD.pdf)
 
 ---
 ### 03. Project - 리스크 헷지 기반 ETF 추천 서비스
