@@ -5,4 +5,8 @@
 
 <h2> 🛠 기술 스택 </h2>
 
-- 대규모 영상 처리 : Spark, openCV
+- 대규모 영상 처리 및 분석 도구 : Spark, OpenCV, YOLO(v3)
+- 딥러닝 프레임워크 : PyTorch
+- 객체 추적 : DeepSORT
+- 워크플로우 자동화 및 관리 도구 : Airflow (예정)
+- 평가 및 분석 도구 : Scikit-learn
