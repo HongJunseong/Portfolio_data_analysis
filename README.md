@@ -52,4 +52,4 @@
 
 본 프로젝트에서는 사고 영상의 프레임 시퀀스를 입력으로 받아, 1단계에서는 ResNet34 기반의 TSN 모델을 통해 사고 발생 장소를 분류하고, 2단계에서는 해당 예측 결과와 영상 피처를 결합하여 SlowFast 백본을 기반으로 사고 특징 및 차량 A·B의 진행 방향을 동시에 예측합니다. 마지막으로, 앞 단계의 예측값들을 결합한 벡터를 MLP 분류기에 입력해 과실 비율을 구간별로 판단하였습니다. 각 단계에서는 Optuna를 활용한 하이퍼파라미터 최적화를 통해 학습의 안정성과 성능을 높였습니다.
 
-- [Neg_judge](https://github.com/HongJunseong/neg_judge)
+- [Neg judge](https://github.com/HongJunseong/neg_judge)
