@@ -41,3 +41,6 @@
   - Kakaomap API를 활용하여, 추출된 데이터들을 지도상에 표기함
  
 - [프로젝트 요약](https://github.com/HongJunseong/Portfolio_data_analysis/blob/main/04-foodfinder_by_sns/README.md)
+
+
+### 05. Project - 딥러닝 기반 교통사고 과실 비율 판단 시스템
