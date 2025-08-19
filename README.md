@@ -53,6 +53,8 @@
   - Airflow task에서 Hyper 파일을 생성 후 Tableau Cloud와 연동하여, 데이터가 갱신될 때마다 대시보드도 자동으로 최신 상태로 반영되도록 구성함.
   - 또한 데이터 최신성, 결측률, 중복률 등 품질 지표를 모니터링하여 신뢰성을 확보함.
 
+- [Project Github](https://github.com/HongJunseong/weather-risk-assessment)
+
 ---
 
 ### 06. Project - 딥러닝 기반 교통사고 과실 비율 판단 시스템
