@@ -43,7 +43,7 @@
 - [프로젝트 요약](https://github.com/HongJunseong/Portfolio_data_analysis/blob/main/04-foodfinder_by_sns/README.md)
 
 ---
-### 06. Project – 재해 대응을 위한 준실시간 기상 위험 평가 시스템
+### 05. Project – 재해 대응을 위한 준실시간 기상 위험 평가 시스템
 
 - **프로젝트 소개**
   - 기상청 API로부터 초단기·단기예보, 생활기상지수(UV), 태풍 정보를 30분 단위로 수집하여 지역별 기상 위험도를 준실시간으로 산출하는 시스템을 구축함.
