@@ -40,7 +40,7 @@
   - 광고로 판별된 게시글들을 추천 식당 목록에서 제외하여 사용자에게 더욱 신뢰할 수 있는 정보를 제공함
   - Kakaomap API를 활용하여, 추출된 데이터들을 지도상에 표기함
  
-- [프로젝트 요약](https://github.com/HongJunseong/Portfolio_data_analysis/blob/main/04-foodfinder_by_sns/README.md)
+- [프로젝트 요약](https://github.com/HongJunseong/foodfinder-by-sns)
 
 ---
 ### 05. Project – 재해 대응을 위한 준실시간 기상 위험 평가 시스템
